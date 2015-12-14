@@ -1,0 +1,79 @@
+body {
+    background-image: url(http://www.macwallhd.com/wp-content/Wallpapers/20120625/At%20the%20Office%20Mac%20Apple%20Wallpapers%20Creative%20Planning-2982192420.jpeg);
+}
+
+#one {
+    margin-left: 10px;
+}
+
+#disp-rect {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 150px;
+    background-color: #ff9966;
+    box-shadow: 10px 10px 5px #222222;
+    
+}
+
+.disp-table {
+    text-align: center;
+    display: table;
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cantarell {
+    font-family: Cantarell, Helvetica;
+    font-size: 21px;
+}
+
+.white-text {
+    color: white;
+}
+
+#disp-rect {
+    position: relative;
+    top: 300px;
+}
+
+.my-btn {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 5px #222222;
+}
+
+.my-btn:hover {
+    cursor: pointer;
+}
+
+#give:hover {
+    cursor: pointer;
+}
+
+#jdiv {
+    position: relative;
+    top: 350px;
+    width: 200px;
+    height: 50px;
+    background-color: #3399ff;
+}
+
+
+.lobster {
+    font-family: Lobster, Helvetica;
+    font-size: 60px;
+}
+
+#tweet {
+    margin: 20px;
+}
+

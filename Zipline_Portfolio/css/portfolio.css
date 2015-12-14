@@ -1,0 +1,94 @@
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+.div-img {
+    padding: 40px;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 1080px;
+}
+
+#d1 {
+    background-image: url(http://bccydb.com/wp-content/uploads/2015/12/Wallpapers-B4D.jpg);
+}
+
+#d2 {
+    background-image: url(http://www.hdwallpaperscool.com/wp-content/uploads/2014/02/ocean-ice-hd-wallpapers-free-download-outstanding-desktop-widescreen-hd-wallpapers-of-ocean-ice.jpg);
+}
+
+#d3 {
+    background-image: url(http://i.imgur.com/cMCk44Y.jpg);
+    height: auto;
+    overflow: auto;
+}
+
+#d4 {
+    background-image: url(http://www.bisouxlounge.com/images/backgrounds/contact/background.jpg);
+}
+
+.white-text {
+    color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+.lobster {
+    font-family: Lobster, Helvetica;
+    font-size: 60px;
+}
+
+#about {
+    color: black;
+}
+
+.cantarell {
+    font-family: Cantarell, Helvetica;
+    font-size: 27px;
+}
+
+#me-text {
+    padding: 20px 20px 20px 0;
+}
+
+#my-img {
+    height: 302px;
+    width: 245px;
+    border-radius: 50%;   
+}
+
+.padmar {
+    margin: 10px;
+    padding: 10px;
+}
+.padmar-small {
+    margin: 2px;
+    padding: 2px;
+}
+
+.project-text {
+    position: relative;
+
+}
+
+#gbutt {
+    background-color: gray;
+}
+
+#footer {
+    height: 100px;
+}
+
+.inline-list {
+    display: inline;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
