@@ -1,17 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+    <title>Zipline Calculator</title>
+    <link href='https://fonts.googleapis.com/css?family=oswald white-text' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
-    
+    <link rel="stylesheet" type="text/css" href="css/calc.css">
+    <script type="text/javascript" src="js/calc.js"></script>
 </head>
 <body>
+    <div id="begin" class="row">
+        <div class="col-md-5">
+            <h2 class="lobster white-text">The Little Red Calculator</h2>
+        </div>
+        <div id="calc" class="col-md-5 container">
+            
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div id="calc-head" class="oswald white-text col-md-3">
+                    <p>CALCULATOR</p>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="col-md-1"></div>
+                <div id="screen" class="col-md-10 well">
+                    <p id="screen-text" class="oswald">99.990</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div id="top-row" class="row-fluid butt-row">
+                <div class="col-md-1"></div>
+                <div id="seven" class="col-md-2 oswald white-text my-btn">
+                    <p>7</p>
+                </div>
+                <div id="eight" class="col-md-2 oswald white-text my-btn">
+                    <p>8</p>
+                </div>
+                <div id="nine" class="col-md-2 oswald white-text my-btn">
+                    <p>9</p>
+                </div>
+                <div id="ce" class="col-md-2 oswald white-text my-btn two-letter">
+                    <p>CE</p>
+                </div>
+                <div id="ac" class="col-md-2 oswald white-text my-btn two-letter">
+                    <p>AC</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div class="row-fluid butt-row">
+                <div class="col-md-1"></div>
+                <div id="four" class="col-md-2 oswald white-text my-btn">
+                    <p>4</p>
+                </div>
+                <div id="five" class="col-md-2 oswald white-text my-btn">
+                    <p>5</p>
+                </div>
+                <div id="six" class="col-md-2 oswald white-text my-btn">
+                    <p>6</p>
+                </div>
+                <div id="divi" class="col-md-2 oswald white-text my-btn">
+                    <p>&divide</p>
+                </div>
+                <div id="mult" class="col-md-2 oswald white-text my-btn">
+                    <p>x</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div id="t-row" class="row-fluid butt-row">
+                <div class="col-md-1"></div>
+                <div id="one" class="col-md-2 oswald white-text my-btn">
+                    <p>1</p>
+                </div>
+                <div id="two" class="col-md-2 oswald white-text my-btn">
+                    <p>2</p>
+                </div>
+                <div id="three" class="col-md-2 oswald white-text my-btn">
+                    <p>3</p>
+                </div>
+                <div id="plus" class="col-md-2 oswald white-text my-btn">
+                    <p>+</p>
+                </div>
+                <div id="minus" class="col-md-2 oswald white-text my-btn">
+                    <p>-</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div id="f-row" class="row-fluid butt-row">
+                <div class="col-md-1"></div>
+                <div id="zero" class="col-md-2 oswald white-text my-btn">
+                    <p>0</p>
+                </div>
+                <div id="dec" class="col-md-2 oswald white-text my-btn">
+                    <p>.</p>
+                </div>
+                <div id="sqrt" class="col-md-2 oswald white-text my-btn">
+                    <p>&#8730</p>
+                </div>
+                <div id="square" class="col-md-2 oswald white-text my-btn">
+                    <p>x&#178</p>
+                </div>
+                <div id="equals" class="col-md-2 oswald white-text my-btn">
+                    <p>=</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="col-md-2 oswald white-text"></div>
+    </div>
 
 </body>
 </html>
