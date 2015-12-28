@@ -35,9 +35,9 @@ $(document).ready(function() {
     });
 
     $(".bi-operator").click(function() {
-        if(operators.indexOf(expStack[expStack.length - 1]) !== -1)
-            expStack.pop();
         var val = $("#screen-text").html();
+        if(operators.indexOf(expStack[expStack.length - 1]) !== -1 && val === '')
+            expStack.pop();
         expStack.push(val);
         var operator = $(this).children("p").html();
         if(operator === 'x')
@@ -45,7 +45,7 @@ $(document).ready(function() {
         if(operator === "\u00F7")
             operator = '/';
         expStack.push(operator);
-        //console.log(expStack);
+        console.log(expStack);
         $("#screen-text").html("");
     });
 

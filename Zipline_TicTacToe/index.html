@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
+    <link rel="stylesheet" href="css/ticStyle.css" type="text/css">
+    <script type="text/javascript" src="js/ticLogic.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 id="ubttt" class="righteous white-text">Unbeatable Tic Tac Toe</h2>
+            </div>
+
+            <div id="table-top" class="container-fluid col-lg-1 col-lg-offset-4 col-md-1 col-md-offset-3 col-xs-1 col-xs-offset-2">
+                <div id="ttdiv" class="row-fluid">
+                    <div class="col-xs-4 cell-table">
+                        <div id="top-left" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 cell-table">
+                        <div id="top" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 cell-table">
+                        <div id="top-right" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 cell-table">
+                        <div id="mid-left" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 cell-table">
+                        <div id="mid" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 cell-table">
+                        <div id="mid-right" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 cell-table">
+                        <div id="bot-left" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 cell-table">
+                        <div id="bot" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 cell-table">
+                        <div id="bot-right" class="cell">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="form-dialog">
+        <p>Do you want X or O?</p>
+        <form>
+            <fieldset>
+                <label for="choice">Choice</label>
+                <input type="radio" name="choice" value="X" class="text ui-widget-content ui-corner-all">X
+                <input type="radio" name="choice" value="O" class="text ui-widget-content ui-corner-all">O<br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

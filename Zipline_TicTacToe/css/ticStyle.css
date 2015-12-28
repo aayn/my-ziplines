@@ -1,0 +1,53 @@
+body {
+    background-image: url("http://www.webdesignburn.com/wp-content/uploads/2015/04/Grey-Texture-Background-and-Wallpaper-28.jpg");
+}
+
+.white-text {
+    color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+.righteous {
+    font-family: Righteous, Helvetica;
+    font-size: 60px;
+}
+
+#ubttt {
+    text-align: center;
+}
+
+#table-top {
+    background-image: url("http://s24.postimg.org/psli98mhh/T_OP.png");
+    height: 600px;
+    width: 600px;
+    display: table;
+    overflow: hidden;
+}
+
+#ttdiv {
+    margin-top: 20px;
+}
+
+.cell-table {
+    display: table;
+    text-align: center;
+    height: 190px;
+    border-style: groove;
+    border-color: sandybrown;
+}
+
+.cell {
+    font-family: Righteous, Helvetica;
+    color: #ffcc99;
+    font-size: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+#form-dialog {
+    background-color: aquamarine;
+}

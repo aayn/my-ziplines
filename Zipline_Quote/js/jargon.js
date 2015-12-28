@@ -7,7 +7,7 @@ function randomPhrase() {
     randAdv = Math.floor(Math.random() * (adverbs.length)); 
     randAdj = Math.floor(Math.random() * (adjectives.length));
     randVer = Math.floor(Math.random() * (verbs.length));
-    randNou = Math.floor(Math.random() * (nouns.length));   
+    randNou = Math.floor(Math.random()* (nouns.length));   
 
     return adverbs[randAdv] + ' ' + adjectives[randAdj] + ' ' + verbs[randVer] + ' ' + nouns[randNou];
 }
